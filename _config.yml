@@ -1,0 +1,3 @@
+markdown: redcarp
+baseurl: /notebook
+exclude: ['README.md']
