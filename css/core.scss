@@ -2,9 +2,7 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
+@import "reset";
 @import "basic";
 @import "header";
-
-h1 {
-	font-size: 60px;
-}
+@import "main";

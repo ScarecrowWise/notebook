@@ -4,25 +4,33 @@
 	<meta charset="UTF-8">
 	<title>Записки ученика - Путь Front-end ремесленника</title>
 
-	<link rel="stylesheet" href="{{site.baseurl}}/css/core.css">
+	<link rel="stylesheet" href="{{ site.baseurl }}/css/core.css">
 </head>
 <body>
 
 	<div class="container">
 		<header class='header'>
-			{% include headnav.html %}
+
+			{% include _default-nav.html navclass='header__main-nav' %}
+
 		</header>
 
 
 
 		<main class='main'>
-			{{content}}
+
+			{{ content }}
+
 		</main>
 
 
 
 		<footer class='footer'>
+
+			{% include _default-nav.html navclass='footer__main-nav' %}
+
 			<p>&copy; 2016 ScarecroWise - путь Front-end ремесленника</p>
+
 		</footer>
 	</div>
 
