@@ -38,8 +38,22 @@ h4 {
 h5 {
 	font-size: 14px;
 }
+small {
+	font-size: 75%;
+}
 
 .container {
 	max-width: 840px;
 	margin: 0 auto;
+}
+
+.wrapper-404 {
+	padding: 100px 0;
+	h1 {
+		text-align: center;
+		text-transform: uppercase;
+	}
+	h2 {
+		text-align: center;
+	}
 }
