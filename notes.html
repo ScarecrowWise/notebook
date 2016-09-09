@@ -3,3 +3,12 @@ layout: default
 ---
 
 <h1>Записи</h1>
+
+<ul>
+	{% for note in site.posts %}
+	<li>
+		<a href="{{ note.url }}">{{ note.title }}</a>
+		{{ post.excerpt }}
+	</li>
+	{% endfor %}
+</ul>
