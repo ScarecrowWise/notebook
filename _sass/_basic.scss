@@ -53,4 +53,21 @@ small {
 	h1,h2 {
 		text-align: center;
 	}
+	h2 {
+		font-weight: 500;
+	}
+}
+
+// Atomic styles
+.dis-b {
+	display: block;
+}
+.ta-c {
+	text-align: center;
+}
+.ta-l {
+	text-align: left;
+}
+.ta-r {
+	text-align: right;
 }
