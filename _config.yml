@@ -1,3 +1,5 @@
 markdown: redcarp
 baseurl: /notebook
 exclude: ['README.md']
+sass:
+  style: compressed

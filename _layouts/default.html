@@ -2,19 +2,29 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Записки ученика - Путь Front-End самурая</title>
+	<title>Записки ученика - Путь Front-end ремесленника</title>
+
+	<link rel="stylesheet" href="{{site.baseurl}}/css/core.css">
 </head>
 <body>
 
-	<header>
-		<nav>
-			<ul>
-				<li><a href="{{site.baseurl}}/index.html">Храм</a></li>
-				<li><a href="{{site.baseurl}}/notes.html">Записи</a></li>
-			</ul>
-		</nav>
-	</header>
-	{{content}}
+	<div class="container">
+		<header class='header'>
+			{% include headnav.html %}
+		</header>
+
+
+
+		<main class='main'>
+			{{content}}
+		</main>
+
+
+
+		<footer class='footer'>
+			<p>&copy; 2016 ScarecroWise - путь Front-end ремесленника</p>
+		</footer>
+	</div>
 
 </body>
 </html>

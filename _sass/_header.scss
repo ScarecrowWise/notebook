@@ -1,0 +1,14 @@
+.header__nav {
+	ul {
+		padding: 0;
+		text-align: right;
+	}
+	li {
+		display: inline-block;
+		
+		a {
+			display: inline-block;
+			padding: 6px 12px;
+		}
+	}
+}
